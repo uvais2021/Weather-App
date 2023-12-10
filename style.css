@@ -5,17 +5,25 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #84ff94;
+    background-color: #50e5ffc5;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+.heading{
+    margin-top: 30px;
+    font-size: 32px;
+    color: #3b3434;
+    /* box-shadow: 0 0 10px black; */
+   
 }
 .card{
     width: 90%;
     max-width: 450px;
     background: linear-gradient(135deg,#eb07cc,#4f37e9);
     color: #fff;
-    margin:100px auto 0;
+    margin:30px auto 0;
     border-radius: 10px;
     padding: 40px 35px;
     text-align: center;
@@ -94,3 +102,91 @@ body{
 .col p{
 margin-left: 5px;
 }
+
+
+/* @media screen and(max-width: 576px){
+    .card{
+        width: 90%;
+        max-width: 450px;
+        background: linear-gradient(135deg,#eb07cc,#4f37e9);
+        color: #fff;
+        margin:100px auto 0;
+        border-radius: 10px;
+        padding: 40px 35px;
+        text-align: center;
+    }
+    .search{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .search input{
+        border: 0;
+        outline: 0;
+        background: #ebfffc;
+        color: #555;
+        padding: 10px 25px;
+        height: 30px;
+        width: 100px;
+        border-radius: 10px;
+        flex: 1;
+        margin-right: 16px;
+        font-size: 16px;
+    }
+    .search button{
+        border: 0;
+        outline: 0;
+        background: #ebfffc;
+        border-radius: 100px;
+        height: 40px;
+        width: 40px;
+        cursor: pointer;
+    }
+    .search button img{
+        width: 14px;
+    }
+    .weather-icon{
+        width: 130px;
+        margin-top: 30px;
+    }
+    .weather h1{
+        font-size: 50px;
+        font-weight: 300;
+        font-size: 40px;
+    
+    }
+    .weather h2{
+        font-size: 45px;
+        font-weight: 400;
+        margin-top: -10px;
+        
+    }
+    .details{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        margin-top: 50px;
+    }
+    .col{
+        display: flex;
+        align-items: center;
+        text-align: left;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 10px;
+    }
+    .col img{
+        width: 30px;
+        margin-right: 10px;
+    }
+    .humidity, .wind{
+        font-size: 18px;
+        margin-top: -6px;
+    }
+    .col p{
+    margin-left: 5px;
+    }
+}
+     */
